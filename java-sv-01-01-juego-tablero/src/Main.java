@@ -27,11 +27,9 @@ public class Main {
                 System.out.print("Dime una letra: ");
             }
         } while (movimiento != 'D');
-        if (movimiento == 'D') {
             matriz[filaY][colY] = '*';
             colY++;
             matriz[filaY][colY] = yoda;
-        }
         System.out.println("La letra elegida es: " + movimiento);
 
         char fin = 'F';
