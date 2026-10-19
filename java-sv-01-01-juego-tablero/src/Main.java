@@ -41,7 +41,7 @@ public class Main {
             }
             System.out.println();
         }
-            System.out.println("Tu jugador se encuentra en la casilla (0, 0)");
+            System.out.println("Tu jugador se encuentra en la casilla (" + filaY + ", " + colY + ")");
             System.out.println("Te puedes desplazar con las teclas W A S D");
             Scanner scan = new Scanner(System.in);
             System.out.print("Dime una letra: ");
@@ -148,8 +148,11 @@ public class Main {
             }
             System.out.println("Vidas: " + vidas);
             if (vidas == 0) {
-                temp = 1;
+                l = 1;
             }
+            System.out.println("Tu jugador se encuentra en la casilla (" + filaY + ", " + colY + ")");
+            System.out.println("Te puedes desplazar con las teclas W A S D");
+            System.out.print("Dime una letra: ");
         }
     }
     }
